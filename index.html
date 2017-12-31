@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="id">
+	<head>
+		<!-- Meta, title, CSS, favicons, etc. -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Indnschool">
+		<meta name="keywords" content="Indnschool">
+		<meta name="author" content="PWD">
+		<title>Welcome Page | Indischool</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="/wifi.id-apt/indischool/themes/frontend/v1/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/wifi.id-apt/indischool/themes/frontend/v1/css/wp.min.css" rel="stylesheet">
+		<link href="/wifi.id-apt/indischool/themes/frontend/v1/css/add-wp.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- Favicons -->
+		<link rel="apple-touch-icon" href="/wifi.id-apt/indischool/assets/img/wifi-50.png">
+		<link rel="icon" href="/wifi.id-apt/indischool/assets/img/wifi-50.png">
+		<script type="text/javascript">
+			var callmodal = "";
+			var appname = "";
+			var lastsource = "";
+			var baseUrl = "/wifi.id-apt/indischool/";
+			var domainUrl = "indi.wifi.id";
+			var dirMethod = "wifi.id-apt";
+			var qs = "client_mac=84:16:f9:88:2f:a3";
+		</script>
+	</head>
+	<body id="indischool">
+		<div id="wrapper-wp">
+			<header>
+				<div id="head-desktop" class="hidden-xs hidden-sm">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4">
+								<div id="logo">
+									<a href="/wifi.id-apt/indischool/?welcome&client_mac=84:16:f9:88:2f:a3"><img src="/wifi.id-apt/indischool/themes/frontend/v1/img/logo.png"></a>
+								</div>
+							</div>
+							<div class="col-md-8">
+								<div class="banner-ads-468 pull-right">
+									<!--
+									<a href="#"><img src="assets/banner/2-468-60.png"></a>
+									-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="head-mobile" class="visible-xs visible-sm">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div id="logo" class="text-center">
+									<a href="/wifi.id-apt/indischool/?welcome&client_mac=84:16:f9:88:2f:a3"><img src="/wifi.id-apt/indischool/themes/frontend/v1/img/logo.png"></a>
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="banner-ads-468 text-center">
+									<a href="/wifi.id-apt/indischool/?welcome&client_mac=84:16:f9:88:2f:a3"><img src="/wifi.id-apt/indischool/assets/banner/468x60.png"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<div class="container">
+				<div class="row">
+					<div id="welcome" class="torso">
+						<!-- Iklan Login-Page -->
+							<!-- Right -->
+							<div style="position:fixed;margin-left:-160px;margin-top:0px;width:160px;height:600px;" class="hidden-sm">
+								<a target="_blank" href="#"><img src="assets/banner/prily-160-600.png" alt="Meet &amp; Greet Prily"></a>
+							</div>
+							<!-- left -->
+							<div style="position:fixed;margin-left:940px;margin-top:0px;width:160px;height:600px;" class="hidden-sm">
+								<a target="_blank" href="#"><img src="assets/banner/agen-160x600.png" alt="agent indischool"></a>
+							</div>
+						<!-- /Iklan Login-Page -->
+
+						<!-- Modal False Validate -->
+						<div class="modal fade" id="false_validate" tabindex="-1" role="dialog" aria-labelledby="falseValidateModal">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-body">
+										<h4 class="text-center">Periksa kembali form isian username dan password anda.</h4>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Modal Inactive Token -->
+						<div class="modal fade" id="inactive_token" tabindex="-1" role="dialog" aria-labelledby="inactiveTokenModal">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-body">
+										<h4 class="text-center">Harap aktivasi token anda terlebih dahulu.</h4>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">OK</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Modal -->
+						<div class="modal modal-indi fade" id="howRegistrationModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							<div class="modal-dialog" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+										<h4 class="modal-title" id="myModalLabel"><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span> Cara Registrasi</h4>
+									</div>
+									<div class="modal-body">
+										<strong>FORMAT</strong><br>INDI
+										<span>
+											<br><br><strong>Contoh:</strong><br>
+											<br><code>INDI&lt;spasi&gt;1000</code> kirim ke <strong>98108</strong> untuk penggunaan <span class="label label-info">1 Jam</span>
+											<br><code>INDI&lt;spasi&gt;5000</code> kirim ke <strong>98108</strong> untuk penggunaan <span class="label label-info">12 Jam</span>
+											<br><code>INDI&lt;spasi&gt;20000</code> kirim ke <strong>98108</strong>untuk penggunaan <span class="label label-info">30 Hari (1 Bulan)</span>
+											<br><code>INDI&lt;spasi&gt;100000</code> kirim ke <strong>98108</strong>untuk penggunaan <span class="label label-info">180 Hari (6 Bulan)</span>
+											<br><hr><strong>TRYOUT ONLINE Bersama RAJABIMBEL</strong><br><code>INDI</code>
+										</span>
+										<br><br><hr>
+										<strong>Kartu SPIN INDISCHOOL</strong><br>Kamu dapat mengakses indischool@wifi.id dengan kartu SPIN indischool<br>Masukan <strong>Username</strong> dan <strong>Password</strong> yang tertera dibelakang kartu SPIN indischool 
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div id="perface-top">
+							<div id="perface-top-inner">
+								<div class="col-md-12">
+									<div id="splash" class="col-md-8">
+										<!--
+										<a href="#"><img src="assets/splash/splash.jpg"></a>
+										-->
+										<div id="splash-carousel" class="carousel slide" data-ride="carousel">
+											<!-- Indicators -->
+											<ol class="carousel-indicators">
+												<li data-target="#splash-carousel" data-slide-to="0" class="active"></li>
+												<li data-target="#splash-carousel" data-slide-to="1" ></li>
+												<li data-target="#splash-carousel" data-slide-to="2" ></li>
+												<li data-target="#splash-carousel" data-slide-to="3" ></li>
+											</ol>
+
+											<!-- Wrapper for slides -->
+											<div class="carousel-inner" role="listbox">
+												<div class="item active">
+													<a href="http://www.myindischool.com/content/myinfo/buka-wawasan-dengan-padi" target="_blank">
+														<img src="/wifi.id-apt/indischool/assets/splash/padi_captive.jpg" alt="PaDI">
+													</a>
+													<div class="carousel-caption">...</div>
+												</div>
+												<div class="item ">
+													<a href="#" >
+														<img src="/wifi.id-apt/indischool/assets/splash/splash-indi-reg.png" alt="INDI REG">
+													</a>
+													<div class="carousel-caption">...</div>
+												</div>
+												<div class="item ">
+													<a href="#" >
+														<img src="/wifi.id-apt/indischool/assets/splash/indi-promo.jpg" alt="INDI PROMO">
+													</a>
+													<div class="carousel-caption">...</div>
+												</div>
+												<div class="item ">
+													<a href="#" >
+														<img src="/wifi.id-apt/indischool/assets/splash/splash-banner-gift.png" alt="INDI GIFT">
+													</a>
+													<div class="carousel-caption">...</div>
+												</div>
+											</div>
+
+											<!-- Controls -->
+											<a class="left carousel-control" href="#splash-carousel" role="button" data-slide="prev">
+												<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+												<span class="sr-only">Previous</span>
+											</a>
+											<a class="right carousel-control" href="#splash-carousel" role="button" data-slide="next">
+												<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+												<span class="sr-only">Next</span>
+											</a>
+										</div>
+									</div>
+									<div id="login-area" class="col-md-4">
+										<div class="well">
+											<form id="gate-form" action="/wifi.id-apt/indischool/welcome?wlanuserip=&amp;client_mac=84:16:f9:88:2f:a3&amp;wlan=&amp;ssid=&amp;redirect=&amp;loc=&amp;ap_mac=&amp;gw_id=&amp;ipc=10.1.64.73&amp;method=apt" method="post" role="form">
+												<input type="hidden" name="_csrf" value="NWdXWFdIdEYHMyFpPSlHB0BXYxEuDAYPQFF6HTgEEQFBUhAWBgQxCg==">
+												<div class="form-group">
+													<div class="input-group">
+														<div class="input-group-addon"><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span></div>
+														<select class="form-control input-sm" id="wifiPay">
+															<option value="">SMS 98108</option>
+															<option value="1">Kartu SPIN IndiSchool / 98108</option>
+														</select>
+													</div>
+												</div>
+												<div class="form-group has-feedback">
+													<div class="form-group field-wifiloginform-username required">
+														<input type="text" id="wifiloginform-username" class="form-control input-sm" name="WifiloginForm[username]" placeholder="Username">
+														<p class="help-block help-block-error"></p>
+													</div>
+													<span aria-hidden="true" class="glyphicon glyphicon-user"></span>
+												</div>
+												<div class="clearfix"></div>
+												<div class="form-group has-feedback">
+													<div class="form-group field-wifiloginform-password required">
+														<input type="password" id="wifiloginform-password" class="form-control input-sm" name="WifiloginForm[password]" placeholder="Password">
+														<p class="help-block help-block-error"></p>
+													</div>
+													<span aria-hidden="true" class="glyphicon glyphicon-lock"></span>
+												</div>
+												<div class="clearfix"></div>
+												<input type="hidden" name="WifiloginForm[type]" value="sms">
+												<button class="btn btn-default btn-block btn-warning" type="submit">Sign in</button>
+											</form> 
+										</div>
+										<div id="registration-btn" class="text-center">
+											<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#howRegistrationModal">Cara Registrasi</button>
+											<!--
+											<a href="#" class="btn btn-info" data-toggle="modal" data-target="#myModal">Cara Registrasi</a>
+											-->
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="clearfix"></div>
+							</div>
+						</div>
+
+						<div id="perface-bottom" >
+							<div class="col-md-12">
+								<div id="perface-bottom-inner">
+									<div class="col-md-8">
+										<div id="package">
+											<div class="exp-package text-center">
+												<!--Pilihan Paket Via Potong Pulsa (Telkomsel, XL, Axis, dan Indosat)-->
+												<div class="tab-content">
+													<div aria-labelledby="subscribe-package-tab" id="subscribe-package" class="tab-pane fade subscribe-package in active" role="tabpanel">Pilihan Paket Via Potong Pulsa (Telkomsel)</div>
+													<div aria-labelledby="onetime-package-tab" id="onetime-package" class="tab-pane fade onetime-package" role="tabpanel">Pilihan Paket Via Potong Pulsa (Telkomsel, XL, Axis, dan Indosat)</div>
+												</div>
+											</div>
+											<div data-example-id="togglable-tabs" class="bs-example bs-example-tabs"> 
+												<ul role="tablist" class="nav nav-tabs" id="tab-package"> 
+													<li class="active" role="presentation"><a aria-expanded="true" aria-controls="subscribe-package" data-toggle="tab" role="tab" id="subscribe-package-tab" href=".subscribe-package">Berlangganan</a></li>
+													<li class="" role="presentation"><a aria-controls="onetime-package" data-toggle="tab" id="onetime-package-tab" role="tab" href=".onetime-package">Sekali Beli</a></li>
+												</ul>
+												<div class="tab-content" id="tab-package-content"> 
+													<div aria-labelledby="subscribe-package-tab" id="subscribe-package" class="tab-pane fade subscribe-package in active" role="tabpanel"> 
+														<div class="package-list">
+															<div class="col-md-6 package-item">
+																<div class="package-banner text-right" style="background:#FF5722;">
+																	<img src="/wifi.id-apt/indischool/assets/content/reg-5k-03.png">
+																	<a href="#" data-toggle="modal" data-target="#package-5K" class="btn btn-sm btn-primary btn-buy btn-right visible-lg visible-xs">BELI</a>
+																	<a href="#" data-toggle="modal" data-target="#package-5K" class="btn btn-sm btn-primary btn-buy btn-right hidden-lg">BELI</a>
+																</div>
+
+																<!-- Modal -->
+																<div class="modal modal-package fade" id="package-5K" tabindex="-1" role="dialog" aria-labelledby="package-5K">
+																	<div class="modal-dialog">
+																		<div class="modal-content">
+																			<div class="modal-header">
+																				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+																				<h4 class="modal-title text-center" id="myModalLabel">IndiSchool@wifi.id</h4>
+																			</div>
+																			<div class="modal-body">
+																				<p class="text-center">
+																					<img src="/wifi.id-apt/indischool/assets/img/reload.gif" width="50px"><br/>LOADING...
+																				</p>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="col-md-6 package-item">
+																<div class="package-banner text-right" style="background:#FF5722;">
+																	<img src="/wifi.id-apt/indischool/assets/content/reg-3k-03.png">
+																	<a href="#" data-toggle="modal" data-target="#package-3K" class="btn btn-sm btn-primary btn-buy btn-right visible-lg visible-xs">BELI</a>
+																	<a href="#" data-toggle="modal" data-target="#package-3K" class="btn btn-sm btn-primary btn-buy btn-right hidden-lg">BELI</a>
+																</div>
+
+																<!-- Modal -->
+																<div class="modal modal-package fade" id="package-3K" tabindex="-1" role="dialog" aria-labelledby="package-3K">
+																	<div class="modal-dialog">
+																		<div class="modal-content">
+																			<div class="modal-header">
+																				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+																				<h4 class="modal-title text-center" id="myModalLabel">IndiSchool@wifi.id</h4>
+																			</div>
+																			<div class="modal-body">
+																				<p class="text-center">
+																					<img src="/wifi.id-apt/indischool/assets/img/reload.gif" width="50px"><br/>LOADING...
+																				</p>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="clearfix"></div>
+														</div>
+													</div>
+													<div aria-labelledby="onetime-package-tab" id="onetime-package" class="tab-pane fade onetime-package" role="tabpanel"> 
+														<div class="package-list">
+															<div class="col-md-6 package-item">
+																<div class="package-banner text-right" style="background:#000000;">
+																	<img src="/wifi.id-apt/indischool/assets/content/1k-03.png">
+																	<a href="#" data-toggle="modal" data-target="#package-1K" class="btn btn-sm btn-danger btn-buy btn-right visible-lg visible-xs">BELI</a>
+																	<a href="#" data-toggle="modal" data-target="#package-1K" class="btn btn-sm btn-danger btn-buy btn-right hidden-lg">BELI</a>
+																</div>
+
+																<!-- Modal -->
+																<div class="modal modal-package fade" id="package-1K" tabindex="-1" role="dialog" aria-labelledby="package-1K">
+																	<div class="modal-dialog">
+																		<div class="modal-content">
+																			<div class="modal-header">
+																				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+																				<h4 class="modal-title text-center" id="myModalLabel">IndiSchool@wifi.id</h4>
+																			</div>
+																			<div class="modal-body">
+																				<p class="text-center">
+																					<img src="/wifi.id-apt/indischool/assets/img/reload.gif" width="50px"><br/>LOADING...
+																				</p>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="col-md-6 package-item">
+																<div class="package-banner text-right" style="background:#000000;">
+																	<img src="/wifi.id-apt/indischool/assets/content/5k-03.png">
+																	<a href="#" data-toggle="modal" data-target="#package-5k" class="btn btn-sm btn-danger btn-buy btn-right visible-lg visible-xs">BELI</a>
+																	<a href="#" data-toggle="modal" data-target="#package-5k" class="btn btn-sm btn-danger btn-buy btn-right hidden-lg">BELI</a>
+																</div>
+
+																<!-- Modal -->
+																<div class="modal modal-package fade" id="package-5k" tabindex="-1" role="dialog" aria-labelledby="package-5k">
+																	<div class="modal-dialog">
+																		<div class="modal-content">
+																			<div class="modal-header">
+																				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+																				<h4 class="modal-title text-center" id="myModalLabel">IndiSchool@wifi.id</h4>
+																			</div>
+																			<div class="modal-body">
+																				<p class="text-center">
+																					<img src="/wifi.id-apt/indischool/assets/img/reload.gif" width="50px"><br/>LOADING...
+																				</p>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="col-md-6 package-item">
+																<div class="package-banner text-right" style="background:#000000;">
+																	<img src="/wifi.id-apt/indischool/assets/content/20k-03.png">
+																	<a href="#" data-toggle="modal" data-target="#package-20K" class="btn btn-sm btn-danger btn-buy btn-right visible-lg visible-xs">BELI</a>
+																	<a href="#" data-toggle="modal" data-target="#package-20K" class="btn btn-sm btn-danger btn-buy btn-right hidden-lg">BELI</a>
+																</div>
+
+																<!-- Modal -->
+																<div class="modal modal-package fade" id="package-20K" tabindex="-1" role="dialog" aria-labelledby="package-20K">
+																	<div class="modal-dialog">
+																		<div class="modal-content">
+																			<div class="modal-header">
+																				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+																				<h4 class="modal-title text-center" id="myModalLabel">IndiSchool@wifi.id</h4>
+																			</div>
+																			<div class="modal-body">
+																				<p class="text-center">
+																					<img src="/wifi.id-apt/indischool/assets/img/reload.gif" width="50px"><br/>LOADING...
+																				</p>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="col-md-6 package-item">
+																<div class="package-banner text-right" style="background:#000000;">
+																	<img src="/wifi.id-apt/indischool/assets/content/100k-03.png">
+																	<a href="#" data-toggle="modal" data-target="#package-100K" class="btn btn-sm btn-danger btn-buy btn-right visible-lg visible-xs">BELI</a>
+																	<a href="#" data-toggle="modal" data-target="#package-100K" class="btn btn-sm btn-danger btn-buy btn-right hidden-lg">BELI</a>
+																</div>
+
+																<!-- Modal -->
+																<div class="modal modal-package fade" id="package-100K" tabindex="-1" role="dialog" aria-labelledby="package-100K">
+																	<div class="modal-dialog">
+																		<div class="modal-content">
+																			<div class="modal-header">
+																				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+																				<h4 class="modal-title text-center" id="myModalLabel">IndiSchool@wifi.id</h4>
+																			</div>
+																			<div class="modal-body">
+																				<p class="text-center">
+																					<img src="/wifi.id-apt/indischool/assets/img/reload.gif" width="50px"><br/>LOADING...
+																				</p>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="clearfix"></div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="banner-ads-300 text-center">
+											<a href="#"><img class="img-responsive center-block" src="assets/banner/free-wifi-300-300.png"></a>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="clearfix"></div> 
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer>
+				<div class="container hidden-xs hidden-sm">
+					<div class="row">
+						<div class="col-md-12">
+							<div id="myindischool" class="foot-block">
+								<div class="foot-block-inner text-left">
+									<a target="_blank" href="http://www.myindischool.com/?utm_source=captive_portal_login&utm_medium=captive_success_login&utm_campaign=captive_portal">www.myindischool.com</a>
+								</div>
+							</div>
+							<div id="zone-indischool" class="foot-block">
+								<div class="foot-block-inner text-center">
+									<a target="_blank" href="http://www.myindischool.com/?utm_source=captive_portal_login&utm_medium=captive_success_login&utm_campaign=captive_portal"><span aria-hidden="true" class="glyphicon glyphicon-blackboard"></span> Zona Indischool</a>
+								</div>
+							</div>
+							<div id="copyright" class="foot-block">
+								<div class="foot-block-inner text-right">Copyright &copy; 2017.</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div id="shadow-foot">&nbsp;</div>
+						</div>
+					</div>
+				</div>
+				<div class="container visible-xs visible-sm">
+					<div class="row">
+						<div class="col-md-12">
+							<div id="" class="foot-block-m">
+								<div class="foot-block-inner text-center">Indischool Copyright &copy; 2017. Telkom Indonesia.</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<!-- Bootstrap core JavaScript -->
+		<script src="/wifi.id-apt/indischool/themes/frontend/v1/js/jquery-1.11.3.min.js"></script>
+		<script src="/wifi.id-apt/indischool/themes/frontend/v1/js/bootstrap.min.js"></script>
+		<script src="/wifi.id-apt/indischool/themes/frontend/v1/js/wp-fx.js"></script>
+	</body>
+</html>
