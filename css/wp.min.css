@@ -79,7 +79,9 @@ body#indischool footer .foot-block .foot-block-inner.text-left {
 }
 
 body#indischool footer .foot-block .foot-block-inner.text-right {
-	background: url(../img/telkom-logo.jpg) no-repeat right;
+	/*
+	background: url(../img/logo-mini.png) no-repeat right;
+	*/
 	padding: 16.2px;
 	-webkit-padding-before: 16.2px;
 	-webkit-padding-after: 17px;

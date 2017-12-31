@@ -36,9 +36,11 @@
 								</div>
 							</div>
 							<div class="col-md-8">
-								<div class="banner-ads-468 pull-right">
-									<a target="_blank" href="https://vip.bitcoin.co.id/ref/RizkyWebID/1"><img src="img/banner/bitcoin-468x60.jpg"></a>
-								</div>
+								<!-- Iklan Login-Page -->
+									<div class="banner-ads-468 pull-right">
+										<a target="_blank" href="https://vip.bitcoin.co.id/ref/RizkyWebID/1"><img src="img/banner/bitcoin-468x60.jpg" alt="BitCoin.Co.ID"></a>
+									</div>
+								<!-- /Iklan Login-Page -->
 							</div>
 						</div>
 					</div>
@@ -48,13 +50,15 @@
 						<div class="row">
 							<div class="col-md-12">
 								<div id="logo" class="text-center">
-									<a href="/wifi.id-apt/indischool/?welcome&client_mac=84:16:f9:88:2f:a3"><img src="img/logo.png"></a>
+									<a href="#"><img src="img/logo.png"></a>
 								</div>
 							</div>
 							<div class="col-md-12">
-								<div class="banner-ads-468 text-center">
-									<a href="/wifi.id-apt/indischool/?welcome&client_mac=84:16:f9:88:2f:a3"><img src="img/468x60.png"></a>
-								</div>
+								<!-- Iklan Login-Page -->
+									<div class="banner-ads-468 text-center">
+										<a target="_blank" href="#"><img src="img/468x60.png" alt="Pasang Iklan Mobile"></a>
+									</div>
+								<!-- /Iklan Login-Page -->
 							</div>
 						</div>
 					</div>
@@ -67,11 +71,11 @@
 						<!-- Iklan Login-Page -->
 							<!-- Right -->
 							<div style="position:fixed;margin-left:-160px;margin-top:0px;width:160px;height:600px;" class="hidden-sm">
-								<a target="_blank" href="#"><img src="img/prily-160-600.png" alt="Meet &amp; Greet Prily"></a>
+								<a target="_blank" href="#"><img src="img/prily-160-600.png" alt="Pasang Iklan Kiri"></a>
 							</div>
 							<!-- left -->
 							<div style="position:fixed;margin-left:940px;margin-top:0px;width:160px;height:600px;" class="hidden-sm">
-								<a target="_blank" href="#"><img src="img/agen-160x600.png" alt="agent indischool"></a>
+								<a target="_blank" href="#"><img src="img/agen-160x600.png" alt="Pasang Iklan Kanan"></a>
 							</div>
 						<!-- /Iklan Login-Page -->
 
@@ -160,7 +164,7 @@
 									</div>
 									<div id="login-area" class="col-md-4">
 										<div class="well">
-											<form id="gate-form" action="/wifi.id-apt/indischool/welcome?wlanuserip=&amp;client_mac=84:16:f9:88:2f:a3&amp;wlan=&amp;ssid=&amp;redirect=&amp;loc=&amp;ap_mac=&amp;gw_id=&amp;ipc=10.1.64.73&amp;method=apt" method="post" role="form">
+											<form id="gate-form" action="#" method="post" role="form">
 												<div class="form-group">
 													<div class="input-group">
 														<div class="input-group-addon"><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span></div>
@@ -188,7 +192,10 @@
 										</div>
 										<div id="registration-btn" class="text-center">
 											<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#howRegistrationModal">Registrasi</button>
-											<button type="button" class="btn btn-primary">Gratis</button>
+											<!-- Informasi Tampilan Masa Trial -->
+											<!--
+											$(if trial == 'yes')<a href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)"><button type="button" class="btn btn-primary">Gratis</button></a>$(endif)
+											-->
 										</div>
 									</div>
 									<div class="clearfix"></div>
@@ -203,7 +210,10 @@
 									<div class="col-md-8">
 										<div id="package">
 											<div class="exp-package text-center">
-												<!--Pilihan Paket Via Potong Pulsa (Telkomsel, XL, Axis, dan Indosat)-->
+												<!-- Informasi Tampilan ERROR Page -->
+												<!--
+												$(if error)<div class="tab-content" style="color: #FF8080;">$(error)</div>$(endif)
+												-->
 												<div class="tab-content">
 													<div aria-labelledby="subscribe-package-tab" id="subscribe-package" class="tab-pane fade subscribe-package in active" role="tabpanel">Pilihan Paket Via Potong Pulsa (Telkomsel)</div>
 													<div aria-labelledby="onetime-package-tab" id="onetime-package" class="tab-pane fade onetime-package" role="tabpanel">Pilihan Paket Via Potong Pulsa (Telkomsel, XL, Axis, dan Indosat)</div>
@@ -219,7 +229,7 @@
 														<div class="package-list">
 															<div class="col-md-6 package-item">
 																<div class="package-banner text-right" style="background:#FF5722;">
-																	<img src="img/reg-5k-03.png">
+																	<img src="img/paket/keluarga-kosong.png">
 																	<a href="#" data-toggle="modal" data-target="#package-5K" class="btn btn-sm btn-primary btn-buy btn-right visible-lg visible-xs">BELI</a>
 																	<a href="#" data-toggle="modal" data-target="#package-5K" class="btn btn-sm btn-primary btn-buy btn-right hidden-lg">BELI</a>
 																</div>
@@ -243,7 +253,55 @@
 															</div>
 															<div class="col-md-6 package-item">
 																<div class="package-banner text-right" style="background:#FF5722;">
-																	<img src="img/reg-3k-03.png">
+																	<img src="img/paket/keluarga-kosong.png">
+																	<a href="#" data-toggle="modal" data-target="#package-3K" class="btn btn-sm btn-primary btn-buy btn-right visible-lg visible-xs">BELI</a>
+																	<a href="#" data-toggle="modal" data-target="#package-3K" class="btn btn-sm btn-primary btn-buy btn-right hidden-lg">BELI</a>
+																</div>
+
+																<!-- Modal -->
+																<div class="modal modal-package fade" id="package-3K" tabindex="-1" role="dialog" aria-labelledby="package-3K">
+																	<div class="modal-dialog">
+																		<div class="modal-content">
+																			<div class="modal-header">
+																				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+																				<h4 class="modal-title text-center" id="myModalLabel">IndiSchool@wifi.id</h4>
+																			</div>
+																			<div class="modal-body">
+																				<p class="text-center">
+																					<img src="img/reload.gif" width="50px"><br/>LOADING...
+																				</p>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="col-md-6 package-item">
+																<div class="package-banner text-right" style="background:#FF5722;">
+																	<img src="img/paket/keluarga-kosong.png">
+																	<a href="#" data-toggle="modal" data-target="#package-5K" class="btn btn-sm btn-primary btn-buy btn-right visible-lg visible-xs">BELI</a>
+																	<a href="#" data-toggle="modal" data-target="#package-5K" class="btn btn-sm btn-primary btn-buy btn-right hidden-lg">BELI</a>
+																</div>
+
+																<!-- Modal -->
+																<div class="modal modal-package fade" id="package-5K" tabindex="-1" role="dialog" aria-labelledby="package-5K">
+																	<div class="modal-dialog">
+																		<div class="modal-content">
+																			<div class="modal-header">
+																				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+																				<h4 class="modal-title text-center" id="myModalLabel">IndiSchool@wifi.id</h4>
+																			</div>
+																			<div class="modal-body">
+																				<p class="text-center">
+																					<img src="img/reload.gif" width="50px"><br/>LOADING...
+																				</p>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="col-md-6 package-item">
+																<div class="package-banner text-right" style="background:#FF5722;">
+																	<img src="img/paket/keluarga-kosong.png">
 																	<a href="#" data-toggle="modal" data-target="#package-3K" class="btn btn-sm btn-primary btn-buy btn-right visible-lg visible-xs">BELI</a>
 																	<a href="#" data-toggle="modal" data-target="#package-3K" class="btn btn-sm btn-primary btn-buy btn-right hidden-lg">BELI</a>
 																</div>
@@ -272,7 +330,7 @@
 														<div class="package-list">
 															<div class="col-md-6 package-item">
 																<div class="package-banner text-right" style="background:#000000;">
-																	<img src="img/1k-03.png">
+																	<img src="img/paket/internet-kosong.png">
 																	<a href="#" data-toggle="modal" data-target="#package-1K" class="btn btn-sm btn-danger btn-buy btn-right visible-lg visible-xs">BELI</a>
 																	<a href="#" data-toggle="modal" data-target="#package-1K" class="btn btn-sm btn-danger btn-buy btn-right hidden-lg">BELI</a>
 																</div>
@@ -296,7 +354,7 @@
 															</div>
 															<div class="col-md-6 package-item">
 																<div class="package-banner text-right" style="background:#000000;">
-																	<img src="img/5k-03.png">
+																	<img src="img/paket/internet-kosong.png">
 																	<a href="#" data-toggle="modal" data-target="#package-5k" class="btn btn-sm btn-danger btn-buy btn-right visible-lg visible-xs">BELI</a>
 																	<a href="#" data-toggle="modal" data-target="#package-5k" class="btn btn-sm btn-danger btn-buy btn-right hidden-lg">BELI</a>
 																</div>
@@ -320,7 +378,7 @@
 															</div>
 															<div class="col-md-6 package-item">
 																<div class="package-banner text-right" style="background:#000000;">
-																	<img src="img/20k-03.png">
+																	<img src="img/paket/internet-kosong.png">
 																	<a href="#" data-toggle="modal" data-target="#package-20K" class="btn btn-sm btn-danger btn-buy btn-right visible-lg visible-xs">BELI</a>
 																	<a href="#" data-toggle="modal" data-target="#package-20K" class="btn btn-sm btn-danger btn-buy btn-right hidden-lg">BELI</a>
 																</div>
@@ -344,7 +402,7 @@
 															</div>
 															<div class="col-md-6 package-item">
 																<div class="package-banner text-right" style="background:#000000;">
-																	<img src="img/100k-03.png">
+																	<img src="img/paket/internet-kosong.png">
 																	<a href="#" data-toggle="modal" data-target="#package-100K" class="btn btn-sm btn-danger btn-buy btn-right visible-lg visible-xs">BELI</a>
 																	<a href="#" data-toggle="modal" data-target="#package-100K" class="btn btn-sm btn-danger btn-buy btn-right hidden-lg">BELI</a>
 																</div>
@@ -374,9 +432,11 @@
 										</div>
 									</div>
 									<div class="col-md-4">
-										<div class="banner-ads-300 text-center">
-											<a target="_blank" href="https://www.shopback.co.id/referred-signup-bonus?raf=VxJwxd"><img class="img-responsive center-block" src="img/banner/shopback-300x300.png"></a>
-										</div>
+										<!-- Iklan Login-Page -->
+											<div class="banner-ads-300 text-center">
+												<a target="_blank" href="https://www.shopback.co.id/referred-signup-bonus?raf=VxJwxd"><img class="img-responsive center-block" src="img/banner/shopback-300x300.png"></a>
+											</div>
+										<!-- /Iklan Login-Page -->
 									</div>
 									<div class="clearfix"></div>
 								</div>
@@ -393,12 +453,12 @@
 						<div class="col-md-12">
 							<div id="myindischool" class="foot-block">
 								<div class="foot-block-inner text-left">
-									<a target="_blank" href="http://Rizky.Web.ID/">Rizky.Web.ID</a>
+									<a target="_blank" href="http://www.Rizky.Web.ID/">http://www.Rizky.Web.ID/</a>
 								</div>
 							</div>
 							<div id="zone-indischool" class="foot-block">
 								<div class="foot-block-inner text-center">
-									<a target="_blank" href="#"><span aria-hidden="true" class="glyphicon glyphicon-blackboard"></span> Zona Hotspot</a>
+									<a target="_blank" href="http://Hotspot.Rizky.Web.ID/"><span aria-hidden="true" class="glyphicon glyphicon-blackboard"></span> Zona Hotspot</a>
 								</div>
 							</div>
 							<div id="copyright" class="foot-block">
