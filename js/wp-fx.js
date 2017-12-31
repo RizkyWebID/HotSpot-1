@@ -37,13 +37,6 @@ var wpindischool = {
             return false;
         });
 
-        $('select').change(function () {
-            if($('#wifiPay').val() == 1 ){
-                window.location = 'http://' + domainUrl + '/' + dirMethod + '/spin_indi2/?' + qs;
-                //window.location = 'http://welcome.wifi.id/wifi.id/spin_indi2/?' + qs;
-            }
-        })
-
 	},
 
 	fixUI: function() {
