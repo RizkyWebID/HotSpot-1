@@ -1,0 +1,22 @@
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel"><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span> PENDAFTARAN</h4>
+			</div>
+			<div class="modal-body">
+				<strong>FORMAT</strong><br>INDI lain page
+				<span>
+					<br><br><strong>Contoh:</strong><br>
+					<br><code>INDI&lt;spasi&gt;1000</code> kirim ke <strong>98108</strong> untuk penggunaan <span class="label label-info">1 Jam</span>
+					<br><code>INDI&lt;spasi&gt;5000</code> kirim ke <strong>98108</strong> untuk penggunaan <span class="label label-info">12 Jam</span>
+					<br><code>INDI&lt;spasi&gt;20000</code> kirim ke <strong>98108</strong>untuk penggunaan <span class="label label-info">30 Hari (1 Bulan)</span>
+					<br><code>INDI&lt;spasi&gt;100000</code> kirim ke <strong>98108</strong>untuk penggunaan <span class="label label-info">180 Hari (6 Bulan)</span>
+					<br><hr><strong>TRYOUT ONLINE Bersama RAJABIMBEL</strong><br><code>INDI</code>
+				</span>
+				<br><br><hr>
+				<strong>Kartu SPIN Hotspot</strong><br>Kamu dapat mengakses HOTSPOT@RIZKY.WEB.ID dengan kartu SPIN Hotspot<br>Masukan <strong>Username</strong> dan <strong>Password</strong> yang tertera dibelakang kartu SPIN Hotspot 
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+			</div>
+		</div>
