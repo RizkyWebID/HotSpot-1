@@ -9,17 +9,22 @@
 		<link type="image/png" href="img/logo-icon.png" rel="apple-touch-icon">
 
 		<!-- Meta -->
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="description" content="Hotspot">
-		<meta name="keywords" content="Hotspot">
-		<meta name="author" content="PWD">
+		<meta charset="UTF-8">
+
+		<meta http-equiv="X-UA-Compatible"	content="IE=edge"/>
+		<meta http-equiv="Content-Type"		content="text/html"/>
+		<meta http-equiv="Pragma"			content="no-cache"/>
+		<meta http-equiv="Expires"			content="-1"/>
+
+		<meta name="Viewport"		content="width=device-width, initial-scale=1">
+		<meta name="Description"	content="Hotspot Internet Service Provider">
+		<meta name="Keywords"		content="Hotspot, WISP, Wi-Fi, ISP, WISP">
+		<meta name="Author"			content="Rizky Arinanda AR">
 
 		<!-- Bootstrap core CSS -->
-		<link href="css/bootstrap.css" rel="stylesheet">
-		<link href="css/tema-style.css" rel="stylesheet">
-		<link href="css/tab-modal.css" rel="stylesheet">
+		<link href="css/bootstrap.css"	rel="stylesheet">
+		<link href="css/tema-style.css"	rel="stylesheet">
+		<link href="css/tab-modal.css"	rel="stylesheet">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
@@ -28,6 +33,25 @@
 		<![endif]-->
 	</head>
 	<body id="RIZKYWEBID">
+$(if chap-id)
+	<form name="sendin" action="$(link-login-only)" method="post">
+		<input type="hidden" name="username" />
+		<input type="hidden" name="password" />
+		<input type="hidden" name="dst" value="$(link-orig)" />
+		<input type="hidden" name="popup" value="true" />
+	</form>
+	<script type="text/javascript" src="js/mikrotik-md5.js"></script>
+	<script type="text/javascript">
+		<!--
+		function doLogin() {
+			document.sendin.username.value = document.login.username.value;
+			document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
+			document.sendin.submit();
+			return false;
+		}
+		//-->
+	</script>
+$(endif)
 		<div id="wrapper-wp">
 			<header>
 				<div id="head-desktop" class="hidden-xs hidden-sm">
@@ -142,37 +166,29 @@
 											<!-- Wrapper for slides -->
 											<div class="carousel-inner" role="listbox">
 												<div class="item active">
-													<a href="#" target="_blank">
-														<img src="img/slide/slide-0.png" alt="slide-1">
-													</a>
-													<div class="carousel-caption">...</div>
+													<a href="#"><img src="img/slide/slide-0.png" alt="slide-1"></a>
+													<!-- <div class="carousel-caption">...</div> -->
 												</div>
 												<div class="item">
-													<a href="#" >
-														<img src="img/slide/slide-1.png" alt="slide-2">
-													</a>
-													<div class="carousel-caption">...</div>
+													<a href="#"><img src="img/slide/slide-1.png" alt="slide-2"></a>
+													<!-- <div class="carousel-caption">...</div> -->
 												</div>
 												<div class="item">
-													<a href="#" >
-														<img src="img/slide/slide-2.png" alt="slide-2">
-													</a>
-													<div class="carousel-caption">...</div>
+													<a href="#"><img src="img/slide/slide-2.png" alt="slide-3"></a>
+													<!-- <div class="carousel-caption">...</div> -->
 												</div>
 												<div class="item">
-													<a href="#" >
-														<img src="img/slide/slide-3.png" alt="slide-2">
-													</a>
-													<div class="carousel-caption">...</div>
+													<a href="#"><img src="img/slide/slide-3.png" alt="slide-4"></a>
+													<!-- <div class="carousel-caption">...</div> -->
 												</div>
 											</div>
 
 											<!-- Controls -->
-											<a class="left carousel-control" href="#splash-carousel" role="button" data-slide="prev">
+											<a class="left carousel-control"	href="#splash-carousel" role="button" data-slide="prev">
 												<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 												<span class="sr-only">Previous</span>
 											</a>
-											<a class="right carousel-control" href="#splash-carousel" role="button" data-slide="next">
+											<a class="right carousel-control"	href="#splash-carousel" role="button" data-slide="next">
 												<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 												<span class="sr-only">Next</span>
 											</a>
@@ -180,37 +196,37 @@
 									</div>
 									<div id="login-area" class="col-md-4">
 										<div class="well">
-											<form id="gate-form" action="#" method="post" role="form">
-												<div class="form-group">
-													<div class="input-group">
-														<div class="input-group-addon"><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span></div>
-														<input type="text" class="form-control input-sm" placeholder="$(mac)" disabled="disabled">
-													</div>
+											<div class="form-group">
+												<div class="input-group">
+													<div class="input-group-addon"><span aria-hidden="true" class="glyphicon glyphicon-list-alt"></span></div>
+													<input class="form-control input-sm" placeholder="$(mac)" disabled="disabled" style="text-align: center;">
 												</div>
+											</div>
+											<form id="gate-form" name="login" action="$(link-login-only)" method="post" role="form" $(if chap-id) onSubmit="return doLogin()" $(endif)>
+												<input type="hidden" name="dst" value="$(link-orig)">
+												<input type="hidden" name="popup" value="true">
 												<div class="form-group has-feedback">
-													<div class="form-group field-wifiloginform-username required">
-														<input type="text" id="wifiloginform-username" class="form-control input-sm" name="WifiloginForm[username]" placeholder="Username">
+													<div class="form-group">
+														<input class="form-control input-sm" name="Username" placeholder="Username" type="text" onkeyup="this.value = this.value.toUpperCase()">
 														<p class="help-block help-block-error"></p>
 													</div>
 													<span aria-hidden="true" class="glyphicon glyphicon-user"></span>
 												</div>
 												<div class="clearfix"></div>
 												<div class="form-group has-feedback">
-													<div class="form-group field-wifiloginform-password required">
-														<input type="password" id="wifiloginform-password" class="form-control input-sm" name="WifiloginForm[password]" placeholder="Password">
+													<div class="form-group">
+														<input class="form-control input-sm" name="Password" placeholder="Password" type="password">
 														<p class="help-block help-block-error"></p>
 													</div>
 													<span aria-hidden="true" class="glyphicon glyphicon-lock"></span>
 												</div>
 												<div class="clearfix"></div>
-												<button class="btn btn-default btn-block btn-warning" type="submit">Sign IN</button>
+												<button class="btn btn-block btn-warning" type="submit">Sign IN</button>
 											</form> 
 										</div>
 										<div id="registration-btn" class="text-center">
 											<a class="btn btn-primary" href="ext/menu-reg" data-toggle="modal" data-target="#menu-reg">Sing UP</a>
-											<!--
 											$(if trial == 'yes')<a href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)"><button type="button" class="btn btn-primary">Gratis</button></a>$(endif)
-											-->
 										</div>
 									</div>
 									<div class="clearfix"></div>
@@ -226,9 +242,7 @@
 										<div id="layanan">
 											<div class="exp-layanan text-center">
 												<!-- Informasi Tampilan ERROR Page -->
-												<!--
 												$(if error)<div class="tab-content" style="color: #FF8080;">$(error)</div>$(endif)
-												-->
 												<div class="tab-content">
 													<div aria-labelledby="fitur1-layanan-tab" id="fitur1-layanan" role="tabpanel" class="tab-pane fade fitur1-layanan in active">Paket Internet "UNLIMITED"</div>
 													<div aria-labelledby="fitur2-layanan-tab" id="fitur2-layanan" role="tabpanel" class="tab-pane fade fitur2-layanan"			>Paket Internet "KUOTA"</div>
@@ -443,5 +457,10 @@
 		<script src="js/jquery-1.11.3.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/function-modal.js"></script>
+		<script type="text/javascript">
+			<!--
+			document.login.username.focus();
+			//-->
+		</script>
 	</body>
 </html>
