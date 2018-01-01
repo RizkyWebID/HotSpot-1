@@ -1,5 +1,5 @@
 body#indischool {
-	background: #608BA4;
+	background: #e6e5ea;
 }
 
 body#indischool .container {
@@ -33,18 +33,18 @@ body#indischool .modal.modal-indi .modal-content .modal-header {
 }
 
 body#indischool header #head-desktop {
-	background: url(../img/logo-head.png) no-repeat left #e6e5ea;
-	-webkit-box-shadow: inset 0px -10px 17px 0px #838385;
-	-moz-box-shadow: inset 0px -10px 17px 0px #838385;
+	background: url(../img/logo-head.png) no-repeat left #ffffff;
+	-webkit-box-shadow: inset 0px -10px 17px 0px #ffffff;
+	-moz-box-shadow: inset 0px -10px 17px 0px #ffffff;
 	box-shadow: inset 0px -10px 17px 0px #838385;
 	padding: 10px 0 10px 0;
 	border-bottom: 2px solid #768080
 }
 
 body#indischool header #head-mobile {
-	background: #e6e5ea;
-	-webkit-box-shadow: inset 0px -10px 17px 0px #838385;
-	-moz-box-shadow: inset 0px -10px 17px 0px #838385;
+	background: #ffffff;
+	-webkit-box-shadow: inset 0px -10px 17px 0px #ffffff;
+	-moz-box-shadow: inset 0px -10px 17px 0px #ffffff;
 	box-shadow: inset 0px -10px 17px 0px #838385;
 	padding: 10px 0 10px 0;
 	border-bottom: 2px solid #768080
@@ -61,6 +61,11 @@ body#indischool footer .foot-block {
 	color: #fff;
 	font-size: 12px;
 	font-weight: normal
+	-webkit-box-shadow: inset 0px -10px 17px 0px #ffffff;
+	-moz-box-shadow: inset 0px -10px 17px 0px #ffffff;
+	box-shadow: inset 0px -10px 17px 0px #838385;
+	padding: 10px 0 10px 0;
+	border-bottom: 2px solid #768080
 }
 
 body#indischool footer .foot-block .foot-block-inner {
