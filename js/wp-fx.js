@@ -1,4 +1,4 @@
-var wpindischool = {
+var wpRIZKYWEBID = {
 	registerEvents: function() {
 		//var self = this;
 
@@ -54,5 +54,5 @@ var wpindischool = {
 }
 
 $(document).ready(function() {
-	wpindischool.initialize();
+	wpRIZKYWEBID.initialize();
 });
