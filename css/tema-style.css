@@ -69,30 +69,12 @@ body#RIZKYWEBID footer .foot-block {
 }
 
 body#RIZKYWEBID footer .foot-block .foot-block-inner {
-	padding: 15px
+	padding: 15px;
 }
 
 body#RIZKYWEBID footer .foot-block .foot-block-inner.text-center {
 	border-right: 2px solid #70151c;
-	border-left: 2px solid #70151c
-}
-
-body#RIZKYWEBID footer .foot-block .foot-block-inner.text-left {
-	padding-left: 38px;
-	padding-right: 0px;
-	font-style: italic
-}
-
-body#RIZKYWEBID footer .foot-block .foot-block-inner.text-right {
-	/*
-	background: url(../img/logo-mini.png) no-repeat right;
-	*/
-	padding: 16.2px;
-	-webkit-padding-before: 16.2px;
-	-webkit-padding-after: 17px;
-	padding-right: 100px;
-	padding-left: 0px;
-	font-size: 10px
+	border-left: 2px solid #70151c;
 }
 
 body#RIZKYWEBID footer .foot-block a {
