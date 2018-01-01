@@ -1,10 +1,22 @@
-<!-- Modal -->
 <div class="modal-content">
 	<div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		<h4 class="modal-title" id="myModalLabel"><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span> SYARAT DAN KETENTUAN</h4>
+		<h4 class="modal-title" id="myModalLabel"><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span> PENDAFTARAN</h4>
 	</div>
 	<div class="modal-body">
-		<p class="text-center">LOADING...</p>
+		<strong>FORMAT</strong><br>Wi-Fi
+		<span>
+			<br><br><strong>Contoh:</strong><br>
+			<br><code>Wi-Fi&lt;spasi&gt;000</code> kirim ke <strong>0</strong> untuk penggunaan <span class="label label-info"> 1 Jam</span>
+			<br><code>Wi-Fi&lt;spasi&gt;000</code> kirim ke <strong>0</strong> untuk penggunaan <span class="label label-info">12 Jam</span>
+			<br><code>Wi-Fi&lt;spasi&gt;000</code> kirim ke <strong>0</strong> untuk penggunaan <span class="label label-info"> 30 Hari (1 Bulan)</span>
+			<br><code>Wi-Fi&lt;spasi&gt;000</code> kirim ke <strong>0</strong> untuk penggunaan <span class="label label-info">180 Hari (6 Bulan)</span>
+			<br><hr><strong>ONLINE Bersama</strong><br><code>Wi-Fi</code>
+		</span>
+		<br><br><hr>
+		<strong>Kartu Hotspot</strong><br>Kamu dapat mengakses HOTSPOT@RIZKY.WEB.ID dengan kartu Hotspot<br>Masukan <strong>Username</strong> dan <strong>Password</strong> yang tertera dibelakang kartu Hotspot 
+	</div>
+	<div class="modal-footer">
+		<button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
 	</div>
 </div>
