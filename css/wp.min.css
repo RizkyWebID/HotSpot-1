@@ -110,12 +110,6 @@ body#RIZKYWEBID footer .foot-block-m .foot-block-inner {
 	padding: 15px
 }
 
-body#RIZKYWEBID footer #shadow-foot {
-	background: url(../img/shadow-foot.png) no-repeat top center;
-	display: block;
-	height: 22px
-}
-
 body#RIZKYWEBID #welcome.hotspot #perface-top {
 	margin-top: 5px
 }

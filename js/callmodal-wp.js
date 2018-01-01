@@ -1,4 +1,4 @@
-var wpRIZKYWEBID = {
+var id-RIZKYWEBID = {
 	registerEvents: function() {
 		//var self = this;
 
@@ -54,5 +54,5 @@ var wpRIZKYWEBID = {
 }
 
 $(document).ready(function() {
-	wpRIZKYWEBID.initialize();
+	id-RIZKYWEBID.initialize();
 });
