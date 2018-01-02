@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 	<head>
 		<!-- Title -->
 		<title>Welcome Page | Hotspot</title>
@@ -33,25 +33,25 @@
 		<![endif]-->
 	</head>
 	<body id="RIZKYWEBID">
-$(if chap-id)
-	<form name="sendin" action="$(link-login-only)" method="post">
-		<input type="hidden" name="username" />
-		<input type="hidden" name="password" />
-		<input type="hidden" name="dst" value="$(link-orig)" />
-		<input type="hidden" name="popup" value="true" />
-	</form>
-	<script type="text/javascript" src="js/mikrotik-md5.js"></script>
-	<script type="text/javascript">
-		<!--
-		function doLogin() {
-			document.sendin.username.value = document.login.username.value;
-			document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
-			document.sendin.submit();
-			return false;
-		}
-		//-->
-	</script>
-$(endif)
+		$(if chap-id)
+			<form name="sendin" action="$(link-login-only)" method="post">
+				<input type="hidden" name="username" />
+				<input type="hidden" name="password" />
+				<input type="hidden" name="dst" value="$(link-orig)" />
+				<input type="hidden" name="popup" value="true" />
+			</form>
+			<script type="text/javascript" src="/md5.js"></script>
+			<script type="text/javascript">
+				<!--
+				function doLogin() {
+					document.sendin.username.value = document.login.username.value;
+					document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
+					document.sendin.submit();
+					return false;
+				}
+				//-->
+			</script>
+		$(endif)
 		<div id="wrapper-wp">
 			<header>
 				<div id="head-desktop" class="hidden-xs hidden-sm">
@@ -453,14 +453,16 @@ $(endif)
 			</footer>
 		</div>
 
-		<!-- Bootstrap core JavaScript -->
-		<script src="js/jquery-1.11.3.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/function-modal.js"></script>
+		<!-- MikroTik JavaScript -->
 		<script type="text/javascript">
 			<!--
 			document.login.username.focus();
 			//-->
 		</script>
+
+		<!-- Bootstrap core JavaScript -->
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/function-modal.js"></script>
 	</body>
 </html>
