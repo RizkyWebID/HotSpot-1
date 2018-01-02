@@ -11,20 +11,20 @@
 		<!-- Meta -->
 		<meta charset="UTF-8">
 
-		<meta http-equiv="X-UA-Compatible"	content="IE=edge"/>
-		<meta http-equiv="Content-Type"		content="text/html"/>
-		<meta http-equiv="Pragma"			content="no-cache"/>
-		<meta http-equiv="Expires"			content="-1"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta http-equiv="Content-Type" content="text/html"/>
+		<meta http-equiv="Pragma" content="no-cache"/>
+		<meta http-equiv="Expires" content="-1"/>
 
-		<meta name="Viewport"		content="width=device-width, initial-scale=1">
-		<meta name="Description"	content="Hotspot Internet Service Provider">
-		<meta name="Keywords"		content="Hotspot, WISP, Wi-Fi, ISP, WISP">
-		<meta name="Author"			content="Rizky Arinanda AR">
+		<meta name="Viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" content="Hotspot Internet Service Provider">
+		<meta name="Keywords" content="Hotspot, WISP, Wi-Fi, ISP, WISP">
+		<meta name="Author" content="Rizky Arinanda AR">
 
 		<!-- Bootstrap core CSS -->
-		<link href="css/bootstrap.css"	rel="stylesheet">
-		<link href="css/tema-style.css"	rel="stylesheet">
-		<link href="css/tab-modal.css"	rel="stylesheet">
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/tema-style.css" rel="stylesheet">
+		<link href="css/tab-modal.css" rel="stylesheet">
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
@@ -40,7 +40,7 @@
 				<input type="hidden" name="dst" value="$(link-orig)" />
 				<input type="hidden" name="popup" value="true" />
 			</form>
-			<script type="text/javascript" src="/md5.js"></script>
+			<script type="text/javascript" src="/js/mikrotik-md5.js"></script>
 			<script type="text/javascript">
 				<!--
 				function doLogin() {
@@ -96,11 +96,11 @@
 				<div class="row">
 					<div id="welcome" class="hotspot">
 						<!-- Iklan Login-Page -->
-							<div style="position:fixed;margin-left:-160px;margin-top:0px;width:160px;height:600px;"	class="hidden-sm">
-								<!-- Right -->	<a target="_blank" href="#"><img src="img/banner/space-160x600.gif" alt="Pasang Iklan Kiri"></a>
+							<div style="position:fixed;margin-left:-160px;margin-top:0px;width:160px;height:600px;" class="hidden-sm">
+								<!-- Right --> <a target="_blank" href="#"><img src="img/banner/space-160x600.gif" alt="Pasang Iklan Kiri"></a>
 							</div>
-							<div style="position:fixed;margin-left:940px;margin-top:0px;width:160px;height:600px;"	class="hidden-sm">
-								<!-- left -->	<a target="_blank" href="#"><img src="img/banner/space-160x600.gif" alt="Pasang Iklan Kanan"></a>
+							<div style="position:fixed;margin-left:940px;margin-top:0px;width:160px;height:600px;" class="hidden-sm">
+								<!-- left --> <a target="_blank" href="#"><img src="img/banner/space-160x600.gif" alt="Pasang Iklan Kanan"></a>
 							</div>
 						<!-- /Iklan Login-Page -->
 
@@ -115,7 +115,7 @@
 										</div>
 										-->
 										<div class="modal-body">
-											<p class="text-center"><img src="img/reload.gif" width="50px"><br/>LOADING...</p>
+											<p class="text-center"><img class="img-responsive center-block" src="img/reload.svg" width="150%"></p>
 										</div>
 										<!--
 										<div class="modal-footer">
@@ -135,7 +135,7 @@
 										</div>
 										-->
 										<div class="modal-body">
-											<p class="text-center"><img src="img/reload.gif" width="50px"><br/>LOADING...</p>
+											<p class="text-center"><img class="img-responsive center-block" src="img/reload.svg" width="150%"></p>
 										</div>
 										<!--
 										<div class="modal-footer">
@@ -152,7 +152,7 @@
 								<div class="col-md-12">
 									<div id="splash" class="col-md-8">
 										<!--
-										<a href="#"><img src="img/slide/slide-0.png"></a>
+										<a href="#"><img src="img/slide-0.png"></a>
 										-->
 										<div id="splash-carousel" class="carousel slide" data-ride="carousel">
 											<!-- Indicators -->
@@ -166,29 +166,29 @@
 											<!-- Wrapper for slides -->
 											<div class="carousel-inner" role="listbox">
 												<div class="item active">
-													<a href="#"><img src="img/slide/slide-0.png" alt="slide-1"></a>
+													<a href="#"><img src="img/slide-0.png" alt="slide-1"></a>
 													<!-- <div class="carousel-caption">...</div> -->
 												</div>
 												<div class="item">
-													<a href="#"><img src="img/slide/slide-1.png" alt="slide-2"></a>
+													<a href="#"><img src="img/slide-1.png" alt="slide-2"></a>
 													<!-- <div class="carousel-caption">...</div> -->
 												</div>
 												<div class="item">
-													<a href="#"><img src="img/slide/slide-2.png" alt="slide-3"></a>
+													<a href="#"><img src="img/slide-2.png" alt="slide-3"></a>
 													<!-- <div class="carousel-caption">...</div> -->
 												</div>
 												<div class="item">
-													<a href="#"><img src="img/slide/slide-3.png" alt="slide-4"></a>
+													<a href="#"><img src="img/slide-3.png" alt="slide-4"></a>
 													<!-- <div class="carousel-caption">...</div> -->
 												</div>
 											</div>
 
 											<!-- Controls -->
-											<a class="left carousel-control"	href="#splash-carousel" role="button" data-slide="prev">
+											<a class="left carousel-control" href="#splash-carousel" role="button" data-slide="prev">
 												<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 												<span class="sr-only">Previous</span>
 											</a>
-											<a class="right carousel-control"	href="#splash-carousel" role="button" data-slide="next">
+											<a class="right carousel-control" href="#splash-carousel" role="button" data-slide="next">
 												<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 												<span class="sr-only">Next</span>
 											</a>
@@ -207,7 +207,7 @@
 												<input type="hidden" name="popup" value="true">
 												<div class="form-group has-feedback">
 													<div class="form-group">
-														<input class="form-control input-sm" name="Username" placeholder="Username" type="text" onkeyup="this.value = this.value.toUpperCase()">
+														<input class="form-control input-sm" name="username" placeholder="username" type="text" onkeyup="this.value = this.value.toUpperCase()">
 														<p class="help-block help-block-error"></p>
 													</div>
 													<span aria-hidden="true" class="glyphicon glyphicon-user"></span>
@@ -215,7 +215,7 @@
 												<div class="clearfix"></div>
 												<div class="form-group has-feedback">
 													<div class="form-group">
-														<input class="form-control input-sm" name="Password" placeholder="Password" type="password">
+														<input class="form-control input-sm" name="password" placeholder="password" type="password">
 														<p class="help-block help-block-error"></p>
 													</div>
 													<span aria-hidden="true" class="glyphicon glyphicon-lock"></span>
@@ -245,20 +245,20 @@
 												$(if error)<div class="tab-content" style="color: #FF8080;">$(error)</div>$(endif)
 												<div class="tab-content">
 													<div aria-labelledby="fitur1-layanan-tab" id="fitur1-layanan" role="tabpanel" class="tab-pane fade fitur1-layanan in active">Paket Internet "UNLIMITED"</div>
-													<div aria-labelledby="fitur2-layanan-tab" id="fitur2-layanan" role="tabpanel" class="tab-pane fade fitur2-layanan"			>Paket Internet "KUOTA"</div>
-													<div aria-labelledby="fitur3-layanan-tab" id="fitur3-layanan" role="tabpanel" class="tab-pane fade fitur3-layanan"			>Layanan Tambahan (ADD-on)</div>
+													<div aria-labelledby="fitur2-layanan-tab" id="fitur2-layanan" role="tabpanel" class="tab-pane fade fitur2-layanan" >Paket Internet "KUOTA"</div>
+													<div aria-labelledby="fitur3-layanan-tab" id="fitur3-layanan" role="tabpanel" class="tab-pane fade fitur3-layanan" >Layanan Tambahan (ADD-on)</div>
 												</div>
 											</div>
 											<div data-example-id="togglable-tabs" class="bs-example bs-example-tabs"> 
 												<ul role="tablist" class="nav nav-tabs" id="tab-layanan"> 
 													<li role="presentation" class="active">
-														<!-- Pelanan 01 -->	<a aria-expanded="true" aria-controls="fitur1-layanan" data-toggle="tab" role="tab" id="fitur1-layanan-tab" href=".fitur1-layanan"><span aria-hidden="true" class="glyphicon glyphicon-home"></span></a>
+														<!-- Pelanan 01 --> <a aria-expanded="true" aria-controls="fitur1-layanan" data-toggle="tab" role="tab" id="fitur1-layanan-tab" href=".fitur1-layanan"><span aria-hidden="true" class="glyphicon glyphicon-home"></span></a>
 													</li>
 													<li role="presentation" class="">
-														<!-- Pelanan 02 -->	<a aria-expanded="false" aria-controls="fitur2-layanan" data-toggle="tab" role="tab" id="fitur2-layanan-tab" href=".fitur2-layanan"><span aria-hidden="true" class="glyphicon glyphicon-star"></span></a>
+														<!-- Pelanan 02 --> <a aria-expanded="false" aria-controls="fitur2-layanan" data-toggle="tab" role="tab" id="fitur2-layanan-tab" href=".fitur2-layanan"><span aria-hidden="true" class="glyphicon glyphicon-star"></span></a>
 													</li>
 													<li role="presentation" class="">
-														<!-- Pelanan 03 -->	<a aria-expanded="false" aria-controls="fitur3-layanan" data-toggle="tab" role="tab" id="fitur3-layanan-tab" href=".fitur3-layanan"><span aria-hidden="true" class="glyphicon glyphicon-link"></span></a>
+														<!-- Pelanan 03 --> <a aria-expanded="false" aria-controls="fitur3-layanan" data-toggle="tab" role="tab" id="fitur3-layanan-tab" href=".fitur3-layanan"><span aria-hidden="true" class="glyphicon glyphicon-link"></span></a>
 													</li>
 												</ul>
 												<div class="tab-content" id="tab-layanan-content"> 
@@ -266,46 +266,46 @@
 														<div class="layanan-list">
 															<div class="col-md-6 layanan-item">
 																<div class="layanan-banner text-right" style="background:#FF5722;">
-																	<img src="img/paket/fitur1-kosong.png">
+																	<img src="img/fitur1-kosong.png">
 																	<a href="ext/tab1-list1" data-toggle="modal" data-target="#tab1-list1" class="btn btn-sm btn-primary btn-buy btn-right visible-lg visible-xs">BELI</a>
 																	<a href="ext/tab1-list1" data-toggle="modal" data-target="#tab1-list1" class="btn btn-sm btn-primary btn-buy btn-right hidden-lg">BELI</a>
 																</div>
 																<!-- Modal -->
 																<div class="modal modal-layanan fade" id="tab1-list1" tabindex="-1" role="dialog" aria-labelledby="tab1-list1">
-																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img src="img/reload.gif" width="50px"><br/>LOADING...</p></div></div></div>
+																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img class="img-responsive center-block" src="img/reload.svg" width="150%"></p></div></div></div>
 																</div>
 															</div>
 															<div class="col-md-6 layanan-item">
 																<div class="layanan-banner text-right" style="background:#FF5722;">
-																	<img src="img/paket/fitur1-kosong.png">
+																	<img src="img/fitur1-kosong.png">
 																	<a href="ext/tab1-list2" data-toggle="modal" data-target="#tab1-list2" class="btn btn-sm btn-primary btn-buy btn-right visible-lg visible-xs">BELI</a>
 																	<a href="ext/tab1-list2" data-toggle="modal" data-target="#tab1-list2" class="btn btn-sm btn-primary btn-buy btn-right hidden-lg">BELI</a>
 																</div>
 																<!-- Modal -->
 																<div class="modal modal-layanan fade" id="tab1-list2" tabindex="-1" role="dialog" aria-labelledby="tab1-list2">
-																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img src="img/reload.gif" width="50px"><br/>LOADING...</p></div></div></div>
+																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img class="img-responsive center-block" src="img/reload.svg" width="150%"></p></div></div></div>
 																</div>
 															</div>
 															<div class="col-md-6 layanan-item">
 																<div class="layanan-banner text-right" style="background:#FF5722;">
-																	<img src="img/paket/fitur1-kosong.png">
+																	<img src="img/fitur1-kosong.png">
 																	<a href="ext/tab1-list3" data-toggle="modal" data-target="#tab1-list3" class="btn btn-sm btn-primary btn-buy btn-right visible-lg visible-xs">BELI</a>
 																	<a href="ext/tab1-list3" data-toggle="modal" data-target="#tab1-list3" class="btn btn-sm btn-primary btn-buy btn-right hidden-lg">BELI</a>
 																</div>
 																<!-- Modal -->
 																<div class="modal modal-layanan fade" id="tab1-list3" tabindex="-1" role="dialog" aria-labelledby="tab1-list3">
-																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img src="img/reload.gif" width="50px"><br/>LOADING...</p></div></div></div>
+																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img class="img-responsive center-block" src="img/reload.svg" width="150%"></p></div></div></div>
 																</div>
 															</div>
 															<div class="col-md-6 layanan-item">
 																<div class="layanan-banner text-right" style="background:#FF5722;">
-																	<img src="img/paket/fitur1-kosong.png">
+																	<img src="img/fitur1-kosong.png">
 																	<a href="ext/tab1-list4" data-toggle="modal" data-target="#tab1-list4" class="btn btn-sm btn-primary btn-buy btn-right visible-lg visible-xs">BELI</a>
 																	<a href="ext/tab1-list4" data-toggle="modal" data-target="#tab1-list4" class="btn btn-sm btn-primary btn-buy btn-right hidden-lg">BELI</a>
 																</div>
 																<!-- Modal -->
 																<div class="modal modal-layanan fade" id="tab1-list4" tabindex="-1" role="dialog" aria-labelledby="tab1-list4">
-																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img src="img/reload.gif" width="50px"><br/>LOADING...</p></div></div></div>
+																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img class="img-responsive center-block" src="img/reload.svg" width="150%"></p></div></div></div>
 																</div>
 															</div>
 															<div class="clearfix"></div>
@@ -315,46 +315,46 @@
 														<div class="layanan-list">
 															<div class="col-md-6 layanan-item">
 																<div class="layanan-banner text-right" style="background:#000000;">
-																	<img src="img/paket/fitur2-kosong.png">
+																	<img src="img/fitur2-kosong.png">
 																	<a href="ext/tab2-list1" data-toggle="modal" data-target="#tab2-list1" class="btn btn-sm btn-danger btn-buy btn-right visible-lg visible-xs">BELI</a>
 																	<a href="ext/tab2-list1" data-toggle="modal" data-target="#tab2-list1" class="btn btn-sm btn-danger btn-buy btn-right hidden-lg">BELI</a>
 																</div>
 																<!-- Modal -->
 																<div class="modal modal-layanan fade" id="tab2-list1" tabindex="-1" role="dialog" aria-labelledby="tab2-list1">
-																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img src="img/reload.gif" width="50px"><br/>LOADING...</p></div></div></div>
+																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img class="img-responsive center-block" src="img/reload.svg" width="150%"></p></div></div></div>
 																</div>
 															</div>
 															<div class="col-md-6 layanan-item">
 																<div class="layanan-banner text-right" style="background:#000000;">
-																	<img src="img/paket/fitur2-kosong.png">
+																	<img src="img/fitur2-kosong.png">
 																	<a href="ext/tab2-list2" data-toggle="modal" data-target="#tab2-list2" class="btn btn-sm btn-danger btn-buy btn-right visible-lg visible-xs">BELI</a>
 																	<a href="ext/tab2-list2" data-toggle="modal" data-target="#tab2-list2" class="btn btn-sm btn-danger btn-buy btn-right hidden-lg">BELI</a>
 																</div>
 																<!-- Modal -->
 																<div class="modal modal-layanan fade" id="tab2-list2" tabindex="-1" role="dialog" aria-labelledby="tab2-list2">
-																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img src="img/reload.gif" width="50px"><br/>LOADING...</p></div></div></div>
+																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img class="img-responsive center-block" src="img/reload.svg" width="150%"></p></div></div></div>
 																</div>
 															</div>
 															<div class="col-md-6 layanan-item">
 																<div class="layanan-banner text-right" style="background:#000000;">
-																	<img src="img/paket/fitur2-kosong.png">
+																	<img src="img/fitur2-kosong.png">
 																	<a href="ext/tab2-list3" data-toggle="modal" data-target="#tab2-list3" class="btn btn-sm btn-danger btn-buy btn-right visible-lg visible-xs">BELI</a>
 																	<a href="ext/tab2-list3" data-toggle="modal" data-target="#tab2-list3" class="btn btn-sm btn-danger btn-buy btn-right hidden-lg">BELI</a>
 																</div>
 																<!-- Modal -->
 																<div class="modal modal-layanan fade" id="tab2-list3" tabindex="-1" role="dialog" aria-labelledby="tab2-list3">
-																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img src="img/reload.gif" width="50px"><br/>LOADING...</p></div></div></div>
+																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img class="img-responsive center-block" src="img/reload.svg" width="150%"></p></div></div></div>
 																</div>
 															</div>
 															<div class="col-md-6 layanan-item">
 																<div class="layanan-banner text-right" style="background:#000000;">
-																	<img src="img/paket/fitur2-kosong.png">
+																	<img src="img/fitur2-kosong.png">
 																	<a href="ext/tab2-list4" data-toggle="modal" data-target="#tab2-list4" class="btn btn-sm btn-danger btn-buy btn-right visible-lg visible-xs">BELI</a>
 																	<a href="ext/tab2-list4" data-toggle="modal" data-target="#tab2-list4" class="btn btn-sm btn-danger btn-buy btn-right hidden-lg">BELI</a>
 																</div>
 																<!-- Modal -->
 																<div class="modal modal-layanan fade" id="tab2-list4" tabindex="-1" role="dialog" aria-labelledby="tab2-list4">
-																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img src="img/reload.gif" width="50px"><br/>LOADING...</p></div></div></div>
+																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img class="img-responsive center-block" src="img/reload.svg" width="150%"></p></div></div></div>
 																</div>
 															</div>
 															<div class="clearfix"></div>
@@ -364,46 +364,46 @@
 														<div class="layanan-list">
 															<div class="col-md-6 layanan-item">
 																<div class="layanan-banner text-right" style="background:#c7d46a;">
-																	<img src="img/paket/fitur3-kosong.png">
+																	<img src="img/fitur3-kosong.png">
 																	<a href="ext/tab3-list1" data-toggle="modal" data-target="#tab3-list1" class="btn btn-sm btn-warning btn-buy btn-right visible-lg visible-xs">BELI</a>
 																	<a href="ext/tab3-list1" data-toggle="modal" data-target="#tab3-list1" class="btn btn-sm btn-warning btn-buy btn-right hidden-lg">BELI</a>
 																</div>
 																<!-- Modal -->
 																<div class="modal modal-layanan fade" id="tab3-list1" tabindex="-1" role="dialog" aria-labelledby="tab3-list1">
-																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img src="img/reload.gif" width="50px"><br/>LOADING...</p></div></div></div>
+																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img class="img-responsive center-block" src="img/reload.svg" width="150%"></p></div></div></div>
 																</div>
 															</div>
 															<div class="col-md-6 layanan-item">
 																<div class="layanan-banner text-right" style="background:#c7d46a;">
-																	<img src="img/paket/fitur3-kosong.png">
+																	<img src="img/fitur3-kosong.png">
 																	<a href="ext/tab3-list2" data-toggle="modal" data-target="#tab3-list2" class="btn btn-sm btn-warning btn-buy btn-right visible-lg visible-xs">BELI</a>
 																	<a href="ext/tab3-list2" data-toggle="modal" data-target="#tab3-list2" class="btn btn-sm btn-warning btn-buy btn-right hidden-lg">BELI</a>
 																</div>
 																<!-- Modal -->
 																<div class="modal modal-layanan fade" id="tab3-list2" tabindex="-1" role="dialog" aria-labelledby="tab3-list2">
-																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img src="img/reload.gif" width="50px"><br/>LOADING...</p></div></div></div>
+																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img class="img-responsive center-block" src="img/reload.svg" width="150%"></p></div></div></div>
 																</div>
 															</div>
 															<div class="col-md-6 layanan-item">
 																<div class="layanan-banner text-right" style="background:#c7d46a;">
-																	<img src="img/paket/fitur3-kosong.png">
+																	<img src="img/fitur3-kosong.png">
 																	<a href="ext/tab3-list3" data-toggle="modal" data-target="#tab3-list3" class="btn btn-sm btn-warning btn-buy btn-right visible-lg visible-xs">BELI</a>
 																	<a href="ext/tab3-list3" data-toggle="modal" data-target="#tab3-list3" class="btn btn-sm btn-warning btn-buy btn-right hidden-lg">BELI</a>
 																</div>
 																<!-- Modal -->
 																<div class="modal modal-layanan fade" id="tab3-list3" tabindex="-1" role="dialog" aria-labelledby="tab3-list3">
-																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img src="img/reload.gif" width="50px"><br/>LOADING...</p></div></div></div>
+																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img class="img-responsive center-block" src="img/reload.svg" width="150%"></p></div></div></div>
 																</div>
 															</div>
 															<div class="col-md-6 layanan-item">
 																<div class="layanan-banner text-right" style="background:#c7d46a;">
-																	<img src="img/paket/fitur3-kosong.png">
+																	<img src="img/fitur3-kosong.png">
 																	<a href="ext/tab3-list4" data-toggle="modal" data-target="#tab3-list4" class="btn btn-sm btn-warning btn-buy btn-right visible-lg visible-xs">BELI</a>
 																	<a href="ext/tab3-list4" data-toggle="modal" data-target="#tab3-list4" class="btn btn-sm btn-warning btn-buy btn-right hidden-lg">BELI</a>
 																</div>
 																<!-- Modal -->
 																<div class="modal modal-layanan fade" id="tab3-list4" tabindex="-1" role="dialog" aria-labelledby="tab3-list4">
-																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img src="img/reload.gif" width="50px"><br/>LOADING...</p></div></div></div>
+																	<div class="modal-dialog"><div class="modal-content"><div class="modal-body"><p class="text-center"><img class="img-responsive center-block" src="img/reload.svg" width="150%"></p></div></div></div>
 																</div>
 															</div>
 															<div class="clearfix"></div>
