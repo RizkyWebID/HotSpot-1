@@ -1,10 +1,19 @@
 <html>
 	<head>
 		<title>Hotspot > Logout</title>
-		
+
+		<!-- Favicons -->
+		<link type="image/png" href="img/logo-icon.png" rel="icon">
+		<link type="image/png" href="img/logo-icon.png" rel="apple-touch-icon">
+
 		<meta http-equiv="Content-Type"	content="text/html; charset=iso-8859-1">
 		<meta http-equiv="pragma"		content="no-cache">
 		<meta http-equiv="expires"		content="-1">
+
+		<meta name="Viewport"		content="width=device-width, initial-scale=1">
+		<meta name="Description"	content="Hotspot Internet Service Provider">
+		<meta name="Keywords"		content="Hotspot, WISP, Wi-Fi, ISP, WISP">
+		<meta name="Author"			content="Rizky Arinanda AR">
 	</head>
 	<body>
 		<script language="JavaScript">
@@ -22,15 +31,35 @@
 				<td align="center" valign="middle">
 					<b>you have just logged out</b>
 					<br><br>
-					<table class="tabula" border="1">  
-						<tr><td align="right">Username</td><td>$(username)</td></tr>
-						<tr><td align="right">IP Address</td><td>$(ip)</td></tr>
-						<tr><td align="right">MAC Address</td><td>$(mac)</td></tr>
-						<tr><td align="right">Session Time</td><td>$(uptime)</td></tr>
+					<table class="tabula" border="1">
+						<tr>
+							<td align="right">Username</td>
+							<td>$(username)</td>
+						</tr>
+						<tr>
+							<td align="right">IP Address</td>
+							<td>$(ip)</td>
+						</tr>
+						<tr>
+							<td align="right">MAC Address</td>
+							<td>$(mac)</td>
+						</tr>
+						<tr>
+							<td align="right">Session Time</td>
+							<td>$(uptime)</td>
+						</tr>
+
 						$(if session-time-left)
-						<tr><td align="right">Time Left</td><td>$(session-time-left)</td></tr>
+							<tr>
+								<td align="right">Time Left</td>
+								<td>$(session-time-left)</td>
+							</tr>
 						$(endif)
-						<tr><td align="right">Bytes UP/DW:</td><td>$(bytes-in-nice) / $(bytes-out-nice)</td></tr>
+
+						<tr>
+							<td align="right">Bytes UP/DW:</td>
+							<td>$(bytes-in-nice) / $(bytes-out-nice)</td>
+						</tr>
 					</table>
 					<br>
 					<form action="$(link-login)" name="login" onSubmit="return openLogin()">

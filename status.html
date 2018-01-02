@@ -2,12 +2,21 @@
 	<head>
 		<title>Hotspot > Status</title>
 
+		<!-- Favicons -->
+		<link type="image/png" href="img/logo-icon.png" rel="icon">
+		<link type="image/png" href="img/logo-icon.png" rel="apple-touch-icon">
+
 		$(if refresh-timeout)
-			<meta http-equiv="refresh"		content="$(refresh-timeout-secs)">
+			<meta http-equiv="refresh"	content="$(refresh-timeout-secs)">
 		$(endif)
 		<meta http-equiv="Content-Type"	content="text/html; charset=iso-8859-1">
 		<meta http-equiv="pragma"		content="no-cache">
 		<meta http-equiv="expires"		content="-1">
+
+		<meta name="Viewport"		content="width=device-width, initial-scale=1">
+		<meta name="Description"	content="Hotspot Internet Service Provider">
+		<meta name="Keywords"		content="Hotspot, WISP, Wi-Fi, ISP, WISP">
+		<meta name="Author"			content="Rizky Arinanda AR">
 
 		<script language="JavaScript">
 			<!--
@@ -43,19 +52,37 @@
 								<br><div style="text-align: center;">Welcome $(username)!</div><br>
 							$(endif)
 
-							<tr><td align="right">IP address:</td><td>$(ip)</td></tr>
-							<tr><td align="right">bytes up/down:</td><td>$(bytes-in-nice) / $(bytes-out-nice)</td></tr>
+							<tr>
+								<td align="right">IP address:</td>
+								<td>$(ip)</td>
+							</tr>
+							<tr>
+								<td align="right">bytes up/down:</td>
+								<td>$(bytes-in-nice) / $(bytes-out-nice)</td>
+							</tr>
 
 							$(if session-time-left)
-								<tr><td align="right">connected / left:</td><td>$(uptime) / $(session-time-left)</td></tr>
+								<tr>
+									<td align="right">connected / left:</td>
+									<td>$(uptime) / $(session-time-left)</td>
+								</tr>
 							$(else)
-								<tr><td align="right">connected:</td><td>$(uptime)</td></tr>
+								<tr>
+									<td align="right">connected:</td>
+									<td>$(uptime)</td>
+								</tr>
 							$(endif)
 
 							$(if blocked == 'yes')
-								<tr><td align="right">status:</td><td><div style="color: #FF8080"><a href="$(link-advert)" target="hotspot_advert">advertisement</a> required</div></td></tr>
+								<tr>
+									<td align="right">status:</td>
+									<td><div style="color: #FF8080"><a href="$(link-advert)" target="hotspot_advert">advertisement</a> required</div></td>
+								</tr>
 							$(elif refresh-timeout)
-								<tr><td align="right">status refresh:</td><td>$(refresh-timeout)</td></tr>
+								<tr>
+									<td align="right">status refresh:</td>
+									<td>$(refresh-timeout)</td>
+								</tr>
 							$(endif)
 						</table>
 						$(if login-by-mac != 'yes')

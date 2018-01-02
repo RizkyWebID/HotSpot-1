@@ -2,16 +2,25 @@
 	<head>
 		<title>Hotspot > Redirect</title>
 
+		<!-- Favicons -->
+		<link type="image/png" href="img/logo-icon.png" rel="icon">
+		<link type="image/png" href="img/logo-icon.png" rel="apple-touch-icon">
+
 		<meta http-equiv="refresh"		content="2; url=$(link-redirect)">
 		<meta http-equiv="Content-Type"	content="text/html; charset=iso-8859-1">
 		<meta http-equiv="pragma"		content="no-cache">
 		<meta http-equiv="expires"		content="-1">
 
+		<meta name="Viewport"		content="width=device-width, initial-scale=1">
+		<meta name="Description"	content="Hotspot Internet Service Provider">
+		<meta name="Keywords"		content="Hotspot, WISP, Wi-Fi, ISP, WISP">
+		<meta name="Author"			content="Rizky Arinanda AR">
+
 		<script language="JavaScript">
 			<!--
 			function startClock() {
 				$(if popup == 'true')
-					open('$(link-status)', 'hotspot_status', 'toolbar=0,location=0,directories=0,status=0,menubars=0,resizable=1,width=290,height=200');
+					open('$(link-status)', 'hotspot_status', 'toolbar=0,location=0,directories=0,status=0,menubars=0,resizable=1,width=300,height=200');
 				$(endif)
 				location.href = '$(link-redirect)';
 			}
