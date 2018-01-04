@@ -4,17 +4,27 @@
 		<h4 class="modal-title" id="myModalLabel"><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span> PENDAFTARAN</h4>
 	</div>
 	<div class="modal-body">
-		<strong>FORMAT</strong><br>Wi-Fi
-		<span>
-			<br><br><strong>Contoh:</strong><br>
-			<br><code>Wi-Fi&lt;spasi&gt;000</code> kirim ke <strong>0</strong> untuk penggunaan <span class="label label-info"> 1 Jam</span>
-			<br><code>Wi-Fi&lt;spasi&gt;000</code> kirim ke <strong>0</strong> untuk penggunaan <span class="label label-info">12 Jam</span>
-			<br><code>Wi-Fi&lt;spasi&gt;000</code> kirim ke <strong>0</strong> untuk penggunaan <span class="label label-info"> 30 Hari (1 Bulan)</span>
-			<br><code>Wi-Fi&lt;spasi&gt;000</code> kirim ke <strong>0</strong> untuk penggunaan <span class="label label-info">180 Hari (6 Bulan)</span>
-			<br><hr><strong>ONLINE Bersama</strong><br><code>Wi-Fi</code>
-		</span>
-		<br><br><hr>
-		<strong>Kartu Hotspot</strong><br>Kamu dapat mengakses HOTSPOT@RIZKY.WEB.ID dengan kartu Hotspot<br>Masukan <strong>Username</strong> dan <strong>Password</strong> yang tertera dibelakang kartu Hotspot 
+		<p class="text-center">
+			<p class="text-center">
+			<strong style="font-size:1.5em">ASRAMA PANCASILA HOTSPOT</strong><br>Jl. Dr. Sutomo Asrama Pancasila Blok BI/10.<br>
+			Hubungi : 0823-8397-9090, 0878-9330-9090. WhatsApp 0823-8397-9090</p>
+		</p>
+		<Br>
+		<p class="text-justify" style="text-indent: 10%;">
+			Kami menyediakan layanan <strong style="font-style:italic; text-indent:10%;">INTERNET Cepat, Murah, dan Aman</strong>. Menggunakan Radio Wireless yang dapat diakses langsung di SmartPhone / Laptop dan menyediakan pemasangan akses internet dirumah anda. Kami juga menyediakan berbagai layanan lainnya, Seperti:<br/>
+			<center><code>Edit Photo</code>, <code>Scanning</code>, <code>Burning CD/DVD</code>, <code>Print Dokumen</code>, <code>Jasa Pengetikan</code>, <code>Installasi Komputer / Laptop / Notebook</code>, <code>Pembuatan Website</code>, <code>Jasa konfigurasi Jaringan</code>, Dan <code>Jual Beli Barang Bekas</code>.</center>
+		</p>
+		<hr>
+		<strong>Keuntungan :</strong><br><br>
+		<ul>
+			<li class="text-justify">Internet <span class="label label-info">Unlimited</span> <span class="label label-info">Download</span> <span class="label label-info">Streaming</span> sepuasnya, Bebas tanpa kouta.</li>
+			<li class="text-justify">Mendukung Program Pemerintah "<strong style="font-style:italic; text-indent:10%;">INTERNET SEHAT UNTUK MASYARAKAT</strong>"</li>
+			<li class="text-justify">Anda tidak perlu Memasang <strike>TELEPON KABEL</strike>, Membeli <strike>MODEM / ROUTER</strike>.</li>
+			<li class="text-justify">Bagi orang tua dapat mengawasi Putra-Putrinya dalam mengakses internet.</li>
+			<li class="text-justify">Dan bisa hubungi kami jika ingin membatasi anak-anak anda dalam penggunakan Akses internet.</li>
+		</ul>
+		<hr>
+		<h3 class="text-center">Mudah Murah Dan Tidak Ribet, Tunggu Apa Lagi ?<br>Percayakan Koneksi <strong>INTERNET</strong> Anda Kepada Kami.</h3>
 	</div>
 	<div class="modal-footer">
 		<button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
