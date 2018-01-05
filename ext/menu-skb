@@ -4,51 +4,38 @@
 		<h4 class="modal-title" id="myModalLabel"><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span> SYARAT DAN KETENTUAN BERLAKU</h4>
 	</div>
 	<div class="modal-body">
-		<br><a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><strong>Pengertian</strong></a>
-		<div id="collapse1" class="panel-collapse collapse">	
+		<br><a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><p class="text-center" style="font-size:1.5em">Informasi Umum</p></a>
+		<div id="collapse1" class="panel-collapse collapse">
 			<ol class="panel-body text-justify">
-				<li>TELKOM adalah Badan Usaha Milik Negara yang dalam hal ini sebagai penyedia layanan IndiHome.</li>
-				<li>PELANGGAN adalah Badan Hukum atau Perorangan berkedudukan di Indonesia yang telah menandatangani kontrak berlangganan dengan TELKOM untuk berlangganan layanan IndiHome dan bertanggung jawab atas segala akibat yang timbul dari padanya.</li>
-				<li>Alamat PELANGGAN adalah dimana PELANGGAN berdomisili dan/atau alamat instalasi layanan IndiHome yang ditunjuk oleh PELANGGAN.</li>
-				<li>IndiHome Triple Play (3P) adalah merupakan layanan dari TELKOM baik yang diselenggarakan sendiri maupun bekerjasama dengan pihak ketiga, yang terdiri dari Telepon, Internet dan IPTV. </li>
-				<li>myIndiHome adalah Mobile Application milik TELKOM yang dikembangkan dan diperuntukkan bagi PELANGGAN baik untuk layanan Fiber maupun Non Fiber untuk  menyampaikan keluhan, mengecek tagihan, melakukan pembelian dan keperluan lainnya lagi bagi PELANGGAN.</li>
-				<li>Add On adalah layanan tambahan IndiHome berupa fitur/konten/Jasa Nilai Tambah (Jasnita) seperti IndiHome View, Melon, akses wifi.id seamless, Minipack dan Trend Micro Internet Security atau layananan lainnya.</li> 
-				<li>Jaringan IndiHome adalah jaringan yang digunakan untuk memenuhi layanan IndiHome baik dengan sistem digital, analog atau direct to home (DTH).</li>
-				<li>Layanan Bundling IndiHome adalah layanan Telepon, Internet dan IPTV yang disediakan dalam beberapa paket antara lain :
-				</li>
-					<ul> 
-						<li>3 Play (3P) yang terdiri dari Telepon, Internet dan IPTV.</li>
-						<li>2 Play (2P) yang terdiri dari Telepon dan Internet.</li>
-						<li>3 Play (3P) yang terdiri dari Telepon, Internet dan IPTV dengan fasilitas Direct To Home (DTH) Transvision.</li>
-						<li>2 Play (2P) yang terdiri dari Internet dan IPTV dengan fasilitas Satelit (IndiHome Sky)</li>
-					</ul>
-				<li>Instalasi Kabel Rumah/Gedung (IKR/G) adalah instalasi jaringan di rumah/gedung dimana perangkat IndiHome dipasang, mulai dari Kotak Terminal Batas (KTB) atau Rangka Pembagi Utama (RPU) hingga ke Customer Premises Equipment (CPE) dan dari CPE ke perangkat terminal seperti telepon, komputer dan Televisi di alamat PELANGGAN.</li> 
-				<li>Customer Premises Equipment (CPE) adalah perangkat milik Telkom atau mitra Telkom yang terdiri dari Modem, Optical Network Terminal (ONT) dan Set Top Box (STB), Decoder, Low Noise Block (LNB) yang merupakan milik TELKOM dan disewakan kepada PELANGGAN selama PELANGGAN berlangganan layanan IndiHome.</li>
+				<li>layanan internet ini dikelola oleh Rizky Arinanda AR, sebagai perseorangan dan selanjutnya akan disebut dengan nama <strong class="HOTSPOT-EXT">HOTSPOT</strong></li>
+				<li>Keseluruhan Syarat dan Ketentuan ini tunduk pada ketentuan hukum yang berlaku di wilayah Republik Indonesia. Apabila ada perselisihan antara <strong class="HOTSPOT-EXT">HOTSPOT</strong> dan Pelanggan terkait dengan Syarat dan Ketentuan, akan diutamakan penyelesaian melalui musyawarah untuk mufakat. Apabila tidak tercapai kata mufakat maka <strong class="HOTSPOT-EXT">HOTSPOT</strong> berhak untuk mengajukan tuntutan atau gugatan.</li>
+				<li><strong class="HOTSPOT-EXT">HOTSPOT</strong> dan Pelanggan sepakat untuk mengesampingkan ketentuan Pasal 1266 Kitab Undang undang Hukum Perdata Indonesia, sehingga atas setiap penghentian Layanan ini bersifat final berdasarkan permohonan tertulis dari Pihak yang melakukan pengentian Layanan sesuai dengan Syarat dan Ketentuan Layanan ini.</li>
+				<li>Syarat dan Ketentuan Layanan dapat berubah sewaktu-waktu</li>
 			</ol>
 		</div>
 
-		<br><a data-toggle="collapse" data-parent="#accordion" href="#collapse2">A. Pengertian</a>
+		<br><a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><p class="text-center" style="font-size:1.5em">Ketentuan Umum</p></a>
 		<div id="collapse2" class="panel-collapse collapse">
 			<ol class="panel-body text-justify">
-				<hr>
-				<li>TELKOM adalah Badan Usaha Milik Negara yang dalam hal ini sebagai penyedia layanan IndiHome.</li>
-				<li>PELANGGAN adalah Badan Hukum atau Perorangan berkedudukan di Indonesia yang telah menandatangani kontrak berlangganan dengan TELKOM untuk berlangganan layanan IndiHome dan bertanggung jawab atas segala akibat yang timbul dari padanya.</li>
-				<li>Alamat PELANGGAN adalah dimana PELANGGAN berdomisili dan/atau alamat instalasi layanan IndiHome yang ditunjuk oleh PELANGGAN.</li>
-				<li>IndiHome Triple Play (3P) adalah merupakan layanan dari TELKOM baik yang diselenggarakan sendiri maupun bekerjasama dengan pihak ketiga, yang terdiri dari Telepon, Internet dan IPTV. </li>
-				<li>myIndiHome adalah Mobile Application milik TELKOM yang dikembangkan dan diperuntukkan bagi PELANGGAN baik untuk layanan Fiber maupun Non Fiber untuk  menyampaikan keluhan, mengecek tagihan, melakukan pembelian dan keperluan lainnya lagi bagi PELANGGAN.</li>
-				<li>Add On adalah layanan tambahan IndiHome berupa fitur/konten/Jasa Nilai Tambah (Jasnita) seperti IndiHome View, Melon, akses wifi.id seamless, Minipack dan Trend Micro Internet Security atau layananan lainnya.</li> 
-				<li>Jaringan IndiHome adalah jaringan yang digunakan untuk memenuhi layanan IndiHome baik dengan sistem digital, analog atau direct to home (DTH).</li>
-				<li>Layanan Bundling IndiHome adalah layanan Telepon, Internet dan IPTV yang disediakan dalam beberapa paket antara lain :
-				</li>
-					<ul> 
-						<li>3 Play (3P) yang terdiri dari Telepon, Internet dan IPTV.</li>
-						<li>2 Play (2P) yang terdiri dari Telepon dan Internet.</li>
-						<li>3 Play (3P) yang terdiri dari Telepon, Internet dan IPTV dengan fasilitas Direct To Home (DTH) Transvision.</li>
-						<li>2 Play (2P) yang terdiri dari Internet dan IPTV dengan fasilitas Satelit (IndiHome Sky)</li>
-					</ul>
-				<li>Instalasi Kabel Rumah/Gedung (IKR/G) adalah instalasi jaringan di rumah/gedung dimana perangkat IndiHome dipasang, mulai dari Kotak Terminal Batas (KTB) atau Rangka Pembagi Utama (RPU) hingga ke Customer Premises Equipment (CPE) dan dari CPE ke perangkat terminal seperti telepon, komputer dan Televisi di alamat PELANGGAN.</li> 
-				<li>Customer Premises Equipment (CPE) adalah perangkat milik Telkom atau mitra Telkom yang terdiri dari Modem, Optical Network Terminal (ONT) dan Set Top Box (STB), Decoder, Low Noise Block (LNB) yang merupakan milik TELKOM dan disewakan kepada PELANGGAN selama PELANGGAN berlangganan layanan IndiHome.</li>
-				<hr>
+				<li>Syarat dan Ketentuan berikut berlaku untuk pengguna perseorangan ('Pelanggan') di perumahan dan layanan yang terjangkau oleh sinyal <strong class="HOTSPOT-EXT">HOTSPOT</strong></li>
+				<li>Layanan <strong class="HOTSPOT-EXT">HOTSPOT</strong> diberikan kepada Pelanggan sebagai layanan "up to" dan "as is", sehingga Hotspot tidak memberikan jaminan kepada Pelanggan atas layanan 1:1 (Dedicated).</li>
+				<li>Pelanggan mengetahui bahwa Layanan <strong class="HOTSPOT-EXT">HOTSPOT</strong> tidak dapat mengeluarkan invoice fisik atau bukti bayar yang setara dengan faktur pajak.</li>
+				<li>Pelanggan mengetahui bahwa Layanan <strong class="HOTSPOT-EXT">HOTSPOT</strong> merupakan layanan prabayar dimana sistem voucher sekali pakai dan prabayar berlangganan, Pelanggan harus melakukan pembayaran bulanan (pada tanggal 1 - 5 di setiap awal bulan) untuk memperpanjang masa aktif bulanan sesuai paket Layanan yang dipilih.</li>
+				<li>IP yang diberikan untuk layanan hotspot adalah IP Private DHCP, tidak tertutup kemungkinan untuk pemesanan port khusus, dalam hal remote layanan tertentu, CCTV, Proxy, Web, dan sebagainya.</li>
+				<li>Pelanggan Prabayar Berlangganan <strong class="HOTSPOT-EXT">HOTSPOT</strong> mengetahui pembayaran pada bulan pertama terdiri dari biaya instalasi dan biaya berlangganan, dimana biaya instalasi termasuk pemasangan jaringan dan peminjaman perangkat.</li>
+				<li>Layanan Prabayar Berlangganan, memiliki masa tenggang selama 45 (empat puluh lima) hari berlaku setelah jatuh tempo masa aktif. Apabila Pelanggan telah melewati masa tenggang dan tidak melakukan pembayaran, Pelanggan dinyatakan telah melakukan terminasi.</li>
+				<li>Pelanggan yang sudah dinyatakan melakukan terminasi dan berkenan untuk berlangganan kembali akan dikenakan biaya rekoneksi (pasang baru)</li>
+				<li>Pelanggan mengetahui bahwa kualitas Layanan yang diterima tergantung pada perangkat Layanan dengan perangkat penerima, baik secara langsung dan/atau tidak langsung.</li> 
+			</ol>
+		</div>
+
+		<br><a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><p class="text-center" style="font-size:1.5em">Ketentuan Penggunaan</p></a>
+		<div id="collapse3" class="panel-collapse collapse">
+			<ol class="panel-body text-justify">
+				<li>Pelanggan mengetahui bahwa proses penjadwalan instalasi dan aktivasi dapat membutuhkan waktu maksimal 24 jam setelah proses pembayaran dinyatakan berhasil.</li>
+				<li>Pelanggan mengetahui bahwa Proses instalasi sampai dengan layanan bisa digunakan membutuhkan waktu maksimal 3 (tiga) hari setelah penjadwalan oleh tim instalasi.</li>
+				<li>Pelanggan mengetahui jika mengikuti Promo <strong class="HOTSPOT-EXT">HOTSPOT</strong>, Pelanggan tidak diperbolehkan melakukan penurunan layanan selama masa berlangganan periode promo yang telah dibayarkan belum habis digunakan.</li>
+				<li>Biaya bulanan yang telah dibayarkan tidak dapat dikembalikan atau diuangkan.</li>
 			</ol>
 		</div>
 	</div>

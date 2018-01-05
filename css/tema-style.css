@@ -92,6 +92,12 @@ body#RIZKYWEBID footer .foot-block-m .foot-block-inner {
 	padding: 15px
 }
 
+body#RIZKYWEBID .HOTSPOT-EXT {
+	font-style:italic;
+	text-indent:10%;
+	color:blue;
+}
+
 body#RIZKYWEBID #welcome.hotspot #perface-top {
 	margin-top: 5px
 }
