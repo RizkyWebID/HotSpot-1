@@ -1,7 +1,7 @@
 <div class="modal-content">
 	<div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		<h4 class="modal-title text-center" id="myModalLabel">PAKET UPTO 5 mbps</h4>
+		<h4 class="modal-title text-center" id="myModalLabel">PAKET UPTO 7.5 mbps</h4>
 	</div>
 	<div class="modal-body">
 		<p class="text-center">
@@ -12,8 +12,8 @@
 			<div class="col-md-6">
 				<strong>Layanan Paket</strong>
 				<ul>
-					<li class="text-justify"><code>3mbps</code> Prabayar Voucher</li>
-					<li class="text-justify"><code>3mbps</code> Prabayar Berlangganan</li>
+					<li class="text-justify"><code>7.5mbps</code> Prabayar Voucher</li>
+					<li class="text-justify"><code>7.5mbps</code> Prabayar Berlangganan</li>
 					<ul>
 						<li class="text-justify"><code>Kontrak</code> 6 Bulan</li>
 						<li class="text-justify"><code>Router</code> Dipinjamkan</li>
@@ -24,7 +24,7 @@
 			<div class="col-md-6">
 				<strong>Informasi :</strong>
 				<ul>
-					<li class="text-justify">Download <code>5mbps</code> Dan Upload <code>1mbps</code></li>
+					<li class="text-justify">Download <code>7.5mbps</code> Dan Upload <code>1mbps</code></li>
 					<li class="text-justify">Maksimal 5 Pengguna (Device) Online</li>
 					<li class="text-justify">Speed Broadband (Speed Shared)</li>
 					<li class="text-justify">Unlimited tanpa KUOTA / FUP</li>
